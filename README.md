@@ -1,16 +1,35 @@
 audaru
 ======
 
-Public sample for audaru.kz API
+Public sample for audaru.kz API:
 
-$text = $_POST['text']; // Source text for translation
+Source text for translation
+<code>
+$text = $_POST['text']; 
+</code>
 
-$from = $_POST['from']; // translation direction Rus <-> Kaz
+Translation direction Rus <-> Kaz
+<code>
+$from = $_POST['from'];
+</code>
 
-$to = $_POST['to']; // translation direction Kaz <-> Rus
+Translation direction Kaz <-> Rus
+<code>
+$to = $_POST['to'];  
+</code>
 
-$client = new SoapClient('http://audaru.kz/server.wsdl'); // SOAP server url
 
-$client->toKaz($text, $html, $key); // API method for russian to kazakh translation
+SOAP server url
+<code>
+$client = new SoapClient('http://audaru.kz/server.wsdl'); 
+</code>
 
-$client->toRus($text, $key); API method for kazakh to russian translation
+API method for russian to kazakh translation
+<code>
+$client->toKaz($text, $html, $key);
+</code>
+
+API method for kazakh to russian translation
+<code>
+$client->toRus($text, $key); 
+</code>
