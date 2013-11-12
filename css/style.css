@@ -1,0 +1,68 @@
+#wrapper{margin:0 auto; margin-left: 2px; margin-top:3px; width:546px;}
+
+#translater textarea, .translate-result {
+    height: 225px;
+}
+.translate-result {
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    color: #555555;
+    overflow: auto;
+    padding: 5px;
+}
+#translater textarea, .translate-result {
+    height: 225px;
+}
+
+.translate-result {
+    color: #555555;
+}
+
+textarea, input {
+    border-radius: 0 0 0 0;
+}
+textarea {
+    resize: vertical;
+}
+.float-left {
+    float: left;
+}
+.clearer {
+  clear: both;
+}
+
+#keyboard {
+    border: 1px solid #BBBBBB;
+    left: 50%;
+    margin-left: -278px;
+    margin-top: 10px;
+    padding: 8px 8px 3px;
+    position: relative;
+    width: 538px;
+}
+#translater-actions .btn {
+    height: 40px;
+}
+#toggle-keyboard {
+    padding: 0 15px;
+}
+#translater-ruskaz-counter, #translater-kazrus-counter {
+    font-weight: bold;
+}
+textarea {resize: vertical;}
+textarea, input {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+#keyboard .btn {margin: 0 0 5px 0; height: 30px;}
+
+
+#bg_tr{
+	background-color: #f5f5f5;
+  	border: 1px solid #eee;
+  	border: 1px solid rgba(0, 0, 0, 0.05);
+	min-height: 20px;
+  	padding: 19px;
+}
+#translater{width:541px;}
